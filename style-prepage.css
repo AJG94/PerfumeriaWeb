@@ -10,6 +10,14 @@ html {
     
 }
 
+body{
+    width: 100%;
+    min-height: 100%;
+    background:linear-gradient(90deg,black, coral);
+    color: rgba(255, 255, 255, 0.487);
+    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header{
     display: flex;
     align-items: center;
@@ -21,6 +29,7 @@ header{
 .headertop{
     display: flex;
     background-color: black;
+    color: white;
     height: 100%;
     width: 100%;
     align-items: center;
@@ -34,14 +43,6 @@ header img{
 a {
    text-decoration: none;
    
-}
-
-body{
-    width: 100%;
-    min-height: 100%;
-    background:linear-gradient(90deg,black, coral);
-    color: rgba(255, 255, 255, 0.487);
-    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex-container{
@@ -79,5 +80,26 @@ body{
 */
 
 
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5cm;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 
+    
+}
 
+svg {
+    color: white;  
+    margin-left: 15px; 
+}
+
+#svg-icons {
+    margin: 10px;
+    text-align: center;
+}
