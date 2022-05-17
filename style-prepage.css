@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    
 }
 
 html {
@@ -40,10 +41,7 @@ header img{
     padding-top: 0.5cm;
 }
 
-a {
-   text-decoration: none;
-   
-}
+
 
 .flex-container{
     display: flex;
@@ -102,4 +100,35 @@ svg {
 #svg-icons {
     margin: 10px;
     text-align: center;
+}
+
+
+.entrar-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.7cm;
+    
+    
+}
+
+.entrar {
+    align-items: center;
+    justify-content: center;
+    border: rgba(255, 255, 255, 0.163) 0.1cm solid;
+    width:15%;
+}
+
+.entrar div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body a{
+    color: rgba(255, 255, 255, 0.487);
+    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
