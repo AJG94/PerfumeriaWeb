@@ -59,23 +59,6 @@ header img{
     margin: 00.5cm;
     
 }
-/*
-.button-container {
-    display: flex;
-    padding: auto;
-}
-.button {
-    border: rgba(0, 0, 0, 0) 0.07cm solid;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    padding: 0.3cm;
-    
-}
-.button a {
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
-*/
 
 
 footer {
@@ -118,6 +101,7 @@ svg {
     justify-content: center;
     border: rgba(255, 255, 255, 0.163) 0.1cm solid;
     width:15%;
+    padding: auto;
 }
 
 .entrar div {
@@ -128,7 +112,9 @@ svg {
 }
 
 body a{
+    
     color: rgba(255, 255, 255, 0.487);
     font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    font-size: smaller;
 }
