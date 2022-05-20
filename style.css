@@ -1,0 +1,35 @@
+.sections-containers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sections {
+    border: rgba(255, 255, 255, 0.163) 0.2cm solid;
+}
+
+.body-perfumeria {
+    width: 100%;
+    min-height: 100%;
+    background:linear-gradient(90deg,rgb(0, 0, 0),rgb(199, 140, 182));
+    color: rgba(255, 255, 255, 0.487);
+    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-ferreteria {
+    width: 100%;
+    min-height: 100%;
+    background:linear-gradient(90deg,rgb(0, 0, 0), rgb(235, 69, 64));
+    color: rgba(255, 255, 255, 0.487);
+    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-celulares {
+    width: 100%;
+    min-height: 100%;
+    background:linear-gradient(90deg,black, rgb(118, 169, 186));
+    color: rgba(255, 255, 255, 0.487);
+    font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
