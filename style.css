@@ -33,3 +33,80 @@
     color: rgba(255, 255, 255, 0.487);
     font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* pruebas css responsive */
+@media (max-width: 576px) {
+  
+    .sections-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .sections {
+        border: rgba(255, 255, 255, 0.163) 0.2cm solid;
+    }
+    
+    .body-perfumeria {
+        width: 100%;
+        min-height: 100%;
+        background:linear-gradient(90deg,rgb(0, 0, 0),rgb(199, 140, 182));
+        color: rgba(255, 255, 255, 0.487);
+        font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .body-ferreteria {
+        width: 100%;
+        min-height: 100%;
+        background:linear-gradient(90deg,rgb(0, 0, 0), rgb(235, 69, 64));
+        color: rgba(255, 255, 255, 0.487);
+        font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .body-celulares {
+        width: 100%;
+        min-height: 100%;
+        background:linear-gradient(90deg,black, rgb(118, 169, 186));
+        color: rgba(255, 255, 255, 0.487);
+        font-family:agency FB, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size:x-large;
+        border: rgba(255, 255, 255, 0.163) 0.2cm solid;
+        height: 100%;
+        margin: 0.5cm;
+        
+    }
+    
+    .flex-container div {
+        padding: 00.5cm;
+        margin: 00.5cm;
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    
+    .headertop{
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        position: sticky;
+        top: 0px;
+    }
+}
